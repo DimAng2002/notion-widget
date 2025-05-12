@@ -8,13 +8,17 @@
     padding-top: 50px;
     align-items: center;
 }
-#add_item_button{
+
+#option{
+    display:flex;
+}
+
+.option_button{
     border-radius: 25%;
     height:50px;
     width:50px;
-
-
 }
+
 .to_do{
     background-color: aquamarine;
     border-radius: 20%;
@@ -28,5 +32,5 @@ h1{
 }
 .to_do:hover{
     opacity: 40%;
-    background-color: blueviolet;
+    background-color: rgb(174, 95, 248);
 }
