@@ -1,0 +1,32 @@
+#container{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(240, 187, 119);
+    border-radius: 15%;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    align-items: center;
+}
+#add_item_button{
+    border-radius: 25%;
+    height:50px;
+    width:50px;
+
+
+}
+.to_do{
+    background-color: aquamarine;
+    border-radius: 20%;
+    margin: 30px;
+    text-align:center;
+}
+
+h1{
+    width:150px;
+    height:90px;
+}
+.to_do:hover{
+    opacity: 40%;
+    background-color: blueviolet;
+}
